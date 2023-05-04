@@ -30,8 +30,8 @@
 }
 
 body{
-  max-width: 400px;
-  min-height: 100vh;
+  width: var(--page-width);
+  height: var(--page-height);
   margin: 0;
   font-family: "Open Sans", sans-serif; 
   font-weight: 300;
