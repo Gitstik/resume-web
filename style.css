@@ -30,8 +30,8 @@
 }
 
 body{
-  width: var(--page-width);
-  height: var(--page-height);
+  max-width: 400px;
+  min-height: 100vh;
   margin: 0;
   font-family: "Open Sans", sans-serif; 
   font-weight: 300;
@@ -82,7 +82,7 @@ li{
 
 #title h1{
   font-weight: 300;
-  font-size: 19pt;
+  font-size: 18pt;
   line-height: 1.5;
 }
 
@@ -107,7 +107,7 @@ li{
   /* XXX: 0.5px for aligning fx printing */
   left: calc((var(--date-block-width) + var(--decorator-horizontal-margin)));
   font-weight: 400;
-  font-size: 12pt;
+  font-size: 11pt;
   color: #555;
 }
 
@@ -331,7 +331,7 @@ li{
 #contact ul{
   margin-top: 0.05in;
   padding-left: 0;
-  font-family: "Font Awesome";
+  font-family: FontAwesome;
   font-weight: 400;
   line-height: 1.75;
 }
@@ -363,7 +363,7 @@ li{
 
 #disclaimer code{
   color: #666;
-  font-family: "Source Code Pro";
+  font-family: FontAwesome;
   font-weight: 400;
   font-style: normal;
 }
